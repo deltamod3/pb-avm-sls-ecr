@@ -19,10 +19,6 @@ functions:
     events:
       - http:
           path: /
-          method: any
-          cors: true
-      - http:
-          path: /{proxy+}
-          method: any
+          method: post
           cors: true
 
